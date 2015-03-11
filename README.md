@@ -26,3 +26,8 @@ An example of a situationally specific question is: “Can we create some graphi
 |Run code on data sets | March 24 | 2 |
 |Analyze results | March 27 | 2 |
 |Create Visuals | April 7 | 5 | 
+|Final Report | April 17 | 5 |
+
+We both do everything
+
+# Done!
