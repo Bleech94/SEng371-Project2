@@ -23,7 +23,8 @@ An example of a situationally specific question is: “Can we create some graphi
 |Task | Date | Weight (out of 5)|
 |-----|------|--------|
 |Finalize communications mapping code | March 20 | 4 |
-|Run code on data sets | March 24 | 2 |
+|Run code on monthly data sets | March 24 | 2 |
+|Combine monthly results into full project data set| March 25 | 1 |
 |Analyze results | March 27 | 2 |
 |Create Visuals | April 7 | 5 | 
 |Final Report | April 17 | 5 |
