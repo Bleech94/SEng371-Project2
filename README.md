@@ -129,22 +129,24 @@ We first present our first project's results. The idea with our first project wa
 Here we list some statistics.
 * Number of Unique Contributors: 2607
 * Number of Unique Contributors with more than >10 Communications: ~350
+From this we can see that there is a massive number of minorly contributing individuals, and an small group of product owners who communicate outwardly very frequently. The massive number of minor contributors is something that we would expect from an open source project, and not from closed source projects, and tells us that the project is infact at least recieving input from the general public/general developer fields. The graph acomplishes its goal of generally giving insight into the communication structure of the Ant project and definitely shows us there are elite product owners. In subsequent sections we will illuminate who those people are. 
 
 ![alt tag](http://i.imgur.com/pBFv1SB.png)
-####Fig: Number of Messages sent per Person
+#####Fig: Number of Messages sent per Person
 
 
 
 ![alt tag](http://i.imgur.com/4gQp2vD.jpg)
-####Fig: Conversations between pairs of people
+#####Fig: Conversations between pairs of people
 
 ![alt tag](http://i.imgur.com/mATG1ah.png) 
-####Fig: Number of Commits per person over Time 
+#####Fig: Number of Commits per person over Time 
 
+####Node-Link Graph 
 Based on our research we've been able to estimate a structure of the organization. There are tons of ocntributors, but the top few are doing the majority of the talking. Based on this we've determined that the contributors can be seperated into 3 tiers. The first tier, as shown in red in the diagram, play the product owner role. They play a large role in commiting code as well as coordinating the overall project by participating in a lot of conversations, many of which are with other top contributors. The second tier, yellow, are the most active developers. These guys are speaking with the product owners the most and have likely been involved in more than one aspect of the Ant project. The third and largest tier, green, are the minor contributors. There are thousands of developers who would fit into this tier. They typically only speak with one product owner and have likely focused on one particular aspect of the Ant project. Very little communication is done from a yellow/green contributor to a yellow/green contributor, it is mostly between red and yellow or red and green.
 
 ![alt tag](http://i.imgur.com/QKCkKWd.jpg)
-####Fig: Derived Node Graph Structure
+#####Fig: Derived Node Graph Structure
 
 ##Conclusion
 
