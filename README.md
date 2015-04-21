@@ -82,7 +82,7 @@ conversationCounter.java
 
 conversationPairCounter.java
 
-* Fourth Process: Graphing our results. This step was applied to the csv files from projects 1 and 2. In this step we opted to utilize LibreOffice Calc bar graphs for presenting our results. Our reasoning is that is easier to rank both the number of conversations that an individual has started compared to others using bar graphs, and it is easier to visually compare communications between pairs of individuals when represented as bar graphs. 
+* Fourth Process: Graphing our results. This step was applied to the csv files from projects 1 and 2. In this step we opted to utilize LibreOffice Calc bar graphs for presenting our results, and the manual creation of a node-link heirarchy graph. Our reasoning is that is easier to rank both the number of conversations that an individual has started compared to others using bar graphs, and it is easier to visually compare communications between pairs of individuals when represented as bar graphs. We then use the Node-link graph to present a finalized social heirarchy. 
 
 ### Github Contributions
 Because the Apache projects have been ported to github there are statistics on contributions per person available. We can then support or compare the code contributions of an individual with our communications based predictions to futher illuminate the role that they play. We collected graphs on the contributions of the most active github contributors. 
@@ -120,20 +120,29 @@ Jean-Louis Boudart|
 |Jon Schneider|
 |Alexey Solofnenko|
 
-As you can see, there is no aparent structure to this listing, entries are not even alphebetized. 
+As you can see, there is no aparent structure to this listing, entries are not even alphebetized. We would like to be able to provide insight into how this flat structure is organize in actuality, with individuals who are important highlighted for their contributions. 
 
 ##Results
+We first present our first project's results. The idea with our first project was to get a general idea of the social structure of the Ant project. We did this by determining the number of unique people communicating in the mailing lists, and the number of conversations that they each started. In this graph we have the number of conversations going vertically, with only people who were started more than 10 unique conversations listed on the x axis. 
+
+####Project 1 Results
+Here we list some statistics.
+* Number of Unique Contributors: 2607
+* Number of Unique Contributors with more than >10 Communications: ~350
+
+![alt tag](http://i.imgur.com/pBFv1SB.png)
+####Fig: Number of Messages sent per Person
+
+
 
 ![alt tag](http://i.imgur.com/4gQp2vD.jpg)
+####Fig: Conversations between pairs of people
 
+![alt tag](http://i.imgur.com/mATG1ah.png) 
+####Fig: Number of Commits per person over Time 
 
 ![alt tag](http://i.imgur.com/QKCkKWd.jpg)
-
-
- ![alt tag](http://i.imgur.com/mATG1ah.png) 
- ![alt tag](http://i.imgur.com/pBFv1SB.png)
-
-
+####Fig: Derived Node Graph Structure
 
 ##Conclusion
 
