@@ -74,7 +74,7 @@ wget -r -l 0 http://ant.apache.org/mail/dev/
 
 mboxToCsvConverter.py
 
-* Thirda Process A: Project 1: Amount of conversations started by individuals. In this program we have the preprocessed content being analyzed to determine the number of conversations that an individual has started. From this we can understand and predict who the major contributors of different projects are. The output is a csv with {name,numConvs} as entries. 
+* Third Process A: Project 1: Amount of conversations started by individuals. In this program we have the preprocessed content being analyzed to determine the number of conversations that an individual has started. From this we can understand and predict who the major contributors of different projects are. The output is a csv with {name,numConvs} as entries. 
 
 conversationCounter.java
 
@@ -123,6 +123,10 @@ Jean-Louis Boudart|
 As you can see, there is no aparent structure to this listing, entries are not even alphebetized. 
 
 ##Results
+
+![alt tag](http://i.imgur.com/mATG1ah.png)
+![alt tag](http://i.imgur.com/4gQp2vD.jpg)
+![alt tag](http://i.imgur.com/pBFv1SB.png)
 
 ##Conclusion
 
