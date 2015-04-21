@@ -35,7 +35,7 @@ Our data creation process involves a few major stages that rely on existing tool
 * WGET: A linux command line tool that lets you download the contents from a URL.
 * Python: A programming language used for conversion of mbox files to csv files.
 * Java: A programming language used for parsing the csv files into useable data. 
-* 
+
 # Milestones
 
 |Task | Date | Weight (out of 5)|
@@ -47,9 +47,15 @@ Our data creation process involves a few major stages that rely on existing tool
 |Create Visuals | April 7 | 5 | 
 |Final Report | April 17 | 5 |
 
-We both do everything
+##Roles of Team Members:
+Brandon Leech and Jorin Weatherston shared the workload evenly and took part in the same tasks.
 
 ##Our Tool 
 
 ##Results
 
+##Conclusion
+
+
+
+##References
