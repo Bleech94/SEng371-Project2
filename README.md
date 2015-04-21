@@ -136,3 +136,6 @@ As you can see, there is no aparent structure to this listing, entries are not e
 With our tools we hope to be able to provide insight into the social structure of open source projects generally, but it seems like we could also look at specific examples of successful or failed projects, and compare and contrast the two to possibly answer the questions of "why did it fail" and "who's fault is it" and "what social structures and dynamics are key to success and failure". 
 
 ##References
+* http://mail-archives.apache.org/mod_mbox/ant-dev/
+* https://github.com/apache/ant/graphs/contributors?from=2001-12-18&to=2002-02-01&type=c
+* http://ant.apache.org/contributors.html
