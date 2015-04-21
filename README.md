@@ -141,6 +141,8 @@ Here we list some statistics.
 ![alt tag](http://i.imgur.com/mATG1ah.png) 
 ####Fig: Number of Commits per person over Time 
 
+Based on our research we've been able to estimate a structure of the organization. There are tons of ocntributors, but the top few are doing the majority of the talking. Based on this we've determined that the contributors can be seperated into 3 tiers. The first tier, as shown in red in the diagram, play the product owner role. They play a large role in commiting code as well as coordinating the overall project by participating in a lot of conversations, many of which are with other top contributors. The second tier, yellow, are the most active developers. These guys are speaking with the product owners the most and have likely been involved in more than one aspect of the Ant project. The third and largest tier, green, are the minor contributors. There are thousands of developers who would fit into this tier. They typically only speak with one product owner and have likely focused on one particular aspect of the Ant project. Very little communication is done from a yellow/green contributor to a yellow/green contributor, it is mostly between red and yellow or red and green.
+
 ![alt tag](http://i.imgur.com/QKCkKWd.jpg)
 ####Fig: Derived Node Graph Structure
 
