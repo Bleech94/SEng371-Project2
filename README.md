@@ -10,17 +10,20 @@ In this project the goal is to, based on the communications that occur, infer th
 
 Our formal project question is as follows: “Can we determine the hierarchical organization and the social structure within an organization from looking at the codebase and internal communication?”
 
-An example of a situationally specific question is: “Can we create some graphical representation of internal communication”
+An example of a situationally specific question is: “Can we create some graphical representation of internal communication that accurately respresents the structure found on the companies website?”
 
 # Hypotheses
 
 * We can determine the organizational structure.
 * We can discover major contributors by mapping communications with a visual representation. 
 * We can estimate the development methodologies that Apache uses.
-* 
+ 
+
 ##Importance
 This area of research can reveal a lot about organizational structure, social structure, the effectiveness of different communication styles, and possibly provide credit (or bonuses) to those who have empirically contributed the most to a project’s success. Developers do not often recognize the amount of communication that it takes to properly develop a product, so perhaps this will help a team understand that although a manager may not provide that many lines of code, they still play an integral part in coordinating people.
 
+##Codebases/Systems Analyzed
+Apache Ant is the only project that we ran our methodology on, but all open source Apache projects include the same structure and have the same resources available to the public, so there is a massive number of projects that this could be done with from just them. 
 
 ##Metrics
 Our metrics are selected to provide maximum insight into the interactions of the developers. We also collect the contributions of developers to code. 
