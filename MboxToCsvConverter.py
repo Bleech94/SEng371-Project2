@@ -19,10 +19,10 @@ for x in range(0, 3):
 			str3 = str2 + str(y)
 		for message in mailbox.mbox(str3):
 			try:
-				subjectName = message['subject'] + '696969' + message['from']
+				subjectName = message['subject'] + '12345' + message['from']
 				#delchars = ''.join(c for c in map(chr, range(256)) if not c.isalnum())
 				subjectNameClean = re.sub(r'\W+', '', subjectName)
-				subjectNameClean = subjectNameClean.replace('696969', ',')
+				subjectNameClean = subjectNameClean.replace('12345', ',')
 				writer.write('%s \n' % subjectNameClean )
 			except TypeError:
 				print "OOPS"
