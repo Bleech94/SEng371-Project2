@@ -129,6 +129,7 @@ We first present our first project's results. The idea with our first project wa
 Here we list some statistics.
 * Number of Unique Contributors: 2607
 * Number of Unique Contributors with more than >10 Communications: ~350
+
 From this we can see that there is a massive number of minorly contributing individuals, and an small group of product owners who communicate outwardly very frequently. The massive number of minor contributors is something that we would expect from an open source project, and not from closed source projects, and tells us that the project is infact at least recieving input from the general public/general developer fields. The graph acomplishes its goal of generally giving insight into the communication structure of the Ant project and definitely shows us there are elite product owners. In subsequent sections we will illuminate who those people are. 
 
 ![alt tag](http://i.imgur.com/pBFv1SB.png)
