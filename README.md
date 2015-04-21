@@ -135,7 +135,7 @@ From this we can see that there is a massive number of minorly contributing indi
 ![alt tag](http://i.imgur.com/pBFv1SB.png)
 #####Fig: Number of Messages sent per Person
 
-
+Looking at the number of messages sent per person helps us to understand who is doing the most communcation, but it doesn't tell us a whole lot about the details of the communication structure. By seeing who is talking to whom the most we can begin to speculate on the actual structure of the organization. It's interesting to note that all of the names listed in the following figure appear in the Top Contributors list (see References). 
 
 ![alt tag](http://i.imgur.com/4gQp2vD.jpg)
 #####Fig: Conversations between pairs of people
@@ -154,7 +154,7 @@ Based on our research we've been able to estimate a structure of the organizatio
 ##Conclusion
 
 ##Future Work
-With our tools we hope to be able to provide insight into the social structure of open source projects generally, but it seems like we could also look at specific examples of successful or failed projects, and compare and contrast the two to possibly answer the questions of "why did it fail" and "who's fault is it" and "what social structures and dynamics are key to success and failure". 
+With our tools we were able to provide insight into the social structure of open source projects generally, but it seems like we could also look at specific examples of successful or failed projects, and compare and contrast the two to possibly answer the questions of "why did it fail" and "who's fault is it" and "what social structures and dynamics are key to success and failure". 
 
 ##References
 * http://mail-archives.apache.org/mod_mbox/ant-dev/
