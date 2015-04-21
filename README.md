@@ -41,7 +41,7 @@ Our metrics are selected to provide maximum insight into the interactions of the
 
 ##Leveraged Tools
 Our data creation process involves a few major stages that rely on existing toolsets:
-* Gource: A tool which looks at the file structure of a repository over time and connects changes to the structure to the developers. This renders a video of a user defined time period of interest. 
+* Libre Office: Calc and Libre Office: Draw
 * WGET: A linux command line tool that lets you download the contents from a URL.
 * Python: A programming language used for conversion of mbox files to csv files.
 * Java: A programming language used for parsing the csv files into useable data. 
