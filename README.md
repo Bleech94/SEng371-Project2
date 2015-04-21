@@ -139,6 +139,8 @@ From this we can see that there is a massive number of minorly contributing indi
 ![alt tag](http://i.imgur.com/4gQp2vD.jpg)
 #####Fig: Conversations between pairs of people
 
+There are so many contributors and yet most commits are from the same person, and the top 4 have committed 99%. This makes sense in an open source project because all changes have to be approved by a product owner in order to maintain organization. It appears that Stefan Bodewig makes the majority of changes, and realityforge (Peter Donald) makes the major changes or perhaps focuses on refactoring since he has the most additions and deletions.
+
 ![alt tag](http://i.imgur.com/mATG1ah.png) 
 #####Fig: Number of Commits per person over Time 
 
