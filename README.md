@@ -135,11 +135,13 @@ From this we can see that there is a massive number of minorly contributing indi
 ![alt tag](http://i.imgur.com/pBFv1SB.png)
 #####Fig: Number of Messages sent per Person
 
-Looking at the number of messages sent per person helps us to understand who is doing the most communcation, but it doesn't tell us a whole lot about the details of the communication structure. By seeing who is talking to whom the most we can begin to speculate on the actual structure of the organization. It's interesting to note that all of the names listed in the following figure appear in the Top Contributors list (see References). 
+####Project 2 Results
+Looking at the number of messages sent per person helps us to understand who is doing the most communcation, but it doesn't tell us a whole lot about the details of the communication structure. By seeing who is talking to whom the most we can begin to speculate on the actual structure of the organization. It's interesting to note that all of the names listed in the following figure appear in the Top Contributors list (see References). Please note that this graph is inclusive of the most intense years of the Ant project, and not the entire timeline. Work has trailed off in the last 6 years. The graph exludes conversations with less than 1000 interactions as there is a lot of noise below that level. 
 
 ![alt tag](http://i.imgur.com/4gQp2vD.jpg)
 #####Fig: Conversations between pairs of people
 
+####Github Results
 There are so many contributors and yet most commits are from the same person, and the top 4 have committed 99%. This makes sense in an open source project because all changes have to be approved by a product owner in order to maintain organization. It appears that Stefan Bodewig makes the majority of changes, and realityforge (Peter Donald) makes the major changes or perhaps focuses on refactoring since he has the most additions and deletions.
 
 ![alt tag](http://i.imgur.com/mATG1ah.png) 
@@ -152,6 +154,14 @@ Based on our research we've been able to estimate a structure of the organizatio
 #####Fig: Derived Node Graph Structure
 
 ##Conclusion
+Over the course of the two projects this semester we have successfully answered our initial question; “Can we determine the hierarchical organization and the social structure within an organization from looking at the codebase and internal communication?”. 
+
+Our data confirmed that the Apache Ant project operates as an open source project that is inclusive of a large general populace, and that there is a group of key product owners that major changes go through, or originate from. 
+
+Our data also confirmed that these poeple are communicating with one another in layered "cliques" of developers.  The top level product developers act as broadcast communicators with all others, with a clear top-down flow of information. The sub-layers do not often communicate between one another. This is also something that we expected to see from an open source project. This allows the product owners to direct the project over its lifetime, and is a result of members of the general public not having easy access to one another, only the project itself. 
+
+We took the flat, un-ordered listing of participants and have, based on the data we collected and processed, determined a node-link structure that attempts to illuminate the social heirarchy of the majoy groups of contributors. 
+We were surprised to find that there are groups of top communicators who don't even appear on lists of those who have committed code. These members have thousands of conversations, but don't act as committers. This can help us understand the specific roles of certain individuals in the context of this project. 
 
 ##Future Work
 With our tools we were able to provide insight into the social structure of open source projects generally, but it seems like we could also look at specific examples of successful or failed projects, and compare and contrast the two to possibly answer the questions of "why did it fail" and "who's fault is it" and "what social structures and dynamics are key to success and failure". 
