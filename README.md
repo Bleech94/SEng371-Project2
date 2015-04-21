@@ -6,11 +6,18 @@ This project focuses on the Apache-Ant project. The reason we chose this project
 
 In this project the goal is to, based on the communications that occur, infer the structure of the company. Connecting this to the commits that occur, with other data in the Github system for the project, we should be able to see who the people are that make the largest impact on the code, who is at the center of communications, and determine if the people who we would expect to be at the helm of a project are represented in the data.
 
+It is interesting to note that for the Apache projects there are no social hierachies posted publicly, only lists of contributors. This means that you cannot infer the social structure of the project from the information available. This is true for many open source projects that match the "flat" social heirachy style. 
+
+We beleive, and want to be able to determine the true social structure of the project despite the flat heirarchy that they have posted. 
+
 # Project Question
 
 Our formal project question is as follows: “Can we determine the hierarchical organization and the social structure within an organization from looking at the codebase and internal communication?”
 
-An example of a situationally specific question is: “Can we create some graphical representation of internal communication that accurately respresents the structure found on the companies website?”
+An example of a situationally specific question is: “Can we create some graphical representation of internal communication that accurately respresents the structure found on the companies website?”.
+
+We want to be able use the tools we develop to predict what the actual social structure is. It seems impossible for the structure to actually be flat, and with our tools we want to be able to say that, for example, this individual is a major project leader based on the amount of communications being sent to and from them, and the code submissions that they perform, or that this person serves a purely communicative or coding function. 
+
 
 # Hypotheses
 
@@ -53,12 +60,73 @@ Our data creation process involves a few major stages that rely on existing tool
 ##Roles of Team Members:
 Brandon Leech and Jorin Weatherston shared the workload evenly and took part in the same tasks.
 
-##Our Tool 
+##Our Tools 
+We now have two seperate tool chains we have developed; one for assessing the number of conversations that a person initiates, and one for seeing who is speaking to who and how much. Our tool chain starts with the same components for data preprocessing. With these tools we hope to be able to give definitive structure to the publicly flat hierarchy of these open source projects, and generate visual representations that best present our findings. 
+
+We also used github statistics to understand individuals developer roles, and the public contributors lists from apache to connect our findings with the official list of individuals working on Ant. 
+
+###Email Communications Processors
+* First process: The collection of mbox files from the apache project website. Because our project is based in linux we are using wget to download all of the resources on a webpage. We then unzipped all of the files to a location.
+
+wget -r -l 0 http://ant.apache.org/mail/dev/
+
+* Second Process: Using Python we used reg-expressions to parse through all of the entries in the data set. This preprocessing readies the content for useage in either of the two different java programs that we wrote. 
+
+mboxToCsvConverter.py
+
+* Thirda Process A: Project 1: Amount of conversations started by individuals. In this program we have the preprocessed content being analyzed to determine the number of conversations that an individual has started. From this we can understand and predict who the major contributors of different projects are. The output is a csv with {name,numConvs} as entries. 
+
+conversationCounter.java
+
+* Third Process B: Project 2: Social structure graphs. In this program we have the processed content being analyzed to see who is speaking to who. This helps us make predictions about who is socially dominant or prevelant in the developement process. 
+
+conversationPairCounter.java
+
+* Fourth Process: Graphing our results. This step was applied to the csv files from projects 1 and 2. In this step we opted to utilize LibreOffice Calc bar graphs for presenting our results. Our reasoning is that is easier to rank both the number of conversations that an individual has started compared to others using bar graphs, and it is easier to visually compare communications between pairs of individuals when represented as bar graphs. 
+
+### Github Contributions
+Because the Apache projects have been ported to github there are statistics on contributions per person available. We can then support or compare the code contributions of an individual with our communications based predictions to futher illuminate the role that they play. We collected graphs on the contributions of the most active github contributors. 
+
+### Public participants list
+A list of particiants is available at the Apache Ant website. This list is not ordered, and is posted below. The categories that a person can belong to are Project Management Committee Active or Emeritus Member, and Committers Active or Emeritus. We will ignore all Emeritus members in our analysis. 
+
+|Project Management Committee Active Members|
+|-------------------------------------------|
+|Bruce Atherton|
+|Stephane Bailliez|
+|Matt Benson|
+|Stefan Bodewig|
+|Dominique Devienne|
+|Erik Hatcher|
+|Martijn (J.M.) Kruithof|
+|Antoine Levy-Lambert| 
+Steve Loughran|
+Conor MacNeill| 
+Jan Matèrne| 
+Peter Reilly|
+Sam Ruby|
+Magesh Umasankar|
+Christoph Wilhelms|
+Kevin Jackson|
+Jesse Glick|
+Jean-Louis Boudart|
+
+
+|Committers Active Members|
+|-------------------------|
+|Steve Cohen|
+|Charles Duffy|
+|Jose Alberto Fernandez|
+|Jon Schneider|
+|Alexey Solofnenko|
+
+As you can see, there is no aparent structure to this listing, entries are not even alphebetized. 
 
 ##Results
 
 ##Conclusion
 
-
+##Future Work
+With our tools we hope to be able to provide insight into the social structure of open source projects generally, but it seems like we could also look at specific examples of successful or failed projects, and compare and contrast the two to possibly answer the questions of "why did it fail" and "who's fault is it" and "what social structures and dynamics are key to success and failure". 
 
 ##References
