@@ -46,19 +46,6 @@ Our data creation process involves a few major stages that rely on existing tool
 * Python: A programming language used for conversion of mbox files to csv files.
 * Java: A programming language used for parsing the csv files into useable data. 
 
-# Milestones
-
-|Task | Date | Weight (out of 5)|
-|-----|------|--------|
-|Finalize communications mapping code | March 20 | 4 |
-|Run code on monthly data sets | March 24 | 2 |
-|Combine monthly results into full project data set| March 25 | 1 |
-|Analyze results | March 27 | 2 |
-|Create Visuals | April 7 | 5 | 
-|Final Report | April 17 | 5 |
-
-##Roles of Team Members:
-Brandon Leech and Jorin Weatherston shared the workload evenly and took part in the same tasks.
 
 ##Our Tools 
 We now have two seperate tool chains we have developed; one for assessing the number of conversations that a person initiates, and one for seeing who is speaking to who and how much. Our tool chain starts with the same components for data preprocessing. With these tools we hope to be able to give definitive structure to the publicly flat hierarchy of these open source projects, and generate visual representations that best present our findings. 
@@ -165,6 +152,20 @@ We were surprised to find that there are groups of top communicators who don't e
 
 ##Future Work
 With our tools we were able to provide insight into the social structure of open source projects generally, but it seems like we could also look at specific examples of successful or failed projects, and compare and contrast the two to possibly answer the questions of "why did it fail" and "who's fault is it" and "what social structures and dynamics are key to success and failure". 
+
+# Milestones
+
+|Task | Date | Weight (out of 5)|
+|-----|------|--------|
+|Finalize communications mapping code | March 20 | 4 |
+|Run code on monthly data sets | March 24 | 2 |
+|Combine monthly results into full project data set| March 25 | 1 |
+|Analyze results | March 27 | 2 |
+|Create Visuals | April 7 | 5 | 
+|Final Report | April 17 | 5 |
+
+##Roles of Team Members:
+Brandon Leech and Jorin Weatherston shared the workload evenly and took part in the same tasks.
 
 ##References
 * http://mail-archives.apache.org/mod_mbox/ant-dev/
